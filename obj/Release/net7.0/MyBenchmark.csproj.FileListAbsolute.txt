@@ -83,3 +83,4 @@ C:\Users\egmis\source\repos\MyBenchmark\MyBenchmark\obj\Release\net7.0\refint\My
 C:\Users\egmis\source\repos\MyBenchmark\MyBenchmark\obj\Release\net7.0\MyBenchmark.pdb
 C:\Users\egmis\source\repos\MyBenchmark\MyBenchmark\obj\Release\net7.0\MyBenchmark.genruntimeconfig.cache
 C:\Users\egmis\source\repos\MyBenchmark\MyBenchmark\obj\Release\net7.0\ref\MyBenchmark.dll
+C:\Users\egmis\source\repos\MyBenchmark\MyBenchmark\obj\Release\net7.0\MyBenchmark.sourcelink.json

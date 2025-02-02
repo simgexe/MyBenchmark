@@ -2,7 +2,7 @@
 <html lang='en'>
 <head>
 <meta charset='utf-8' />
-<title>BenchmarkTests-20250114-131434</title>
+<title>BenchmarkTests-20250123-110808</title>
 
 <style type="text/css">
 	table { border-collapse: collapse; display: block; width: 100%; overflow: auto; }
@@ -13,9 +13,9 @@
 </head>
 <body>
 <pre><code>
-BenchmarkDotNet v0.14.0, Windows 11 (10.0.22631.4602/23H2/2023Update/SunValley3)
+BenchmarkDotNet v0.14.0, Windows 11 (10.0.22631.4751/23H2/2023Update/SunValley3)
 Intel Core i7-10750H CPU 2.60GHz, 1 CPU, 12 logical and 6 physical cores
-.NET SDK 9.0.101
+.NET SDK 9.0.102
   [Host]     : .NET 6.0.36 (6.0.3624.51421), X64 RyuJIT AVX2 [AttachedDebugger]
   DefaultJob : .NET 6.0.36 (6.0.3624.51421), X64 RyuJIT AVX2
 </code></pre>
@@ -24,11 +24,11 @@ Intel Core i7-10750H CPU 2.60GHz, 1 CPU, 12 logical and 6 physical cores
 <table>
 <thead><tr><th>Method        </th><th>Mean   </th><th>Error</th><th>StdDev</th><th>Median </th><th>Gen0</th><th>Gen1</th><th>Gen2</th><th>Allocated</th>
 </tr>
-</thead><tbody><tr><td>JsonSerialize</td><td>178.898 &mu;s</td><td>3.5363 &mu;s</td><td>4.7209 &mu;s</td><td>178.340 &mu;s</td><td>8.7891</td><td>-</td><td>-</td><td>56080 B</td>
-</tr><tr><td>JsonDeserialize</td><td>505.797 &mu;s</td><td>9.8411 &mu;s</td><td>26.6059 &mu;s</td><td>496.718 &mu;s</td><td>22.9492</td><td>5.8594</td><td>-</td><td>145040 B</td>
-</tr><tr><td>LINQ_Sum</td><td>9.554 &mu;s</td><td>0.1827 &mu;s</td><td>0.2103 &mu;s</td><td>9.591 &mu;s</td><td>-</td><td>-</td><td>-</td><td>40 B</td>
-</tr><tr><td>Parallel_ForEach</td><td>318.733 &mu;s</td><td>6.3358 &mu;s</td><td>16.4675 &mu;s</td><td>321.223 &mu;s</td><td>15.1367</td><td>2.9297</td><td>-</td><td>93526 B</td>
-</tr><tr><td>GarbageCollectorTest</td><td>13,311.903 &mu;s</td><td>258.7113 &mu;s</td><td>229.3408 &mu;s</td><td>13,264.566 &mu;s</td><td>1718.7500</td><td>1718.7500</td><td>1718.7500</td><td>1048617680 B</td>
+</thead><tbody><tr><td>JsonSerialize</td><td>172.426 &mu;s</td><td>2.3184 &mu;s</td><td>2.1686 &mu;s</td><td>172.014 &mu;s</td><td>8.7891</td><td>-</td><td>-</td><td>56080 B</td>
+</tr><tr><td>JsonDeserialize</td><td>497.833 &mu;s</td><td>8.1827 &mu;s</td><td>10.0491 &mu;s</td><td>498.285 &mu;s</td><td>22.4609</td><td>5.8594</td><td>-</td><td>145041 B</td>
+</tr><tr><td>LINQ_Sum</td><td>9.581 &mu;s</td><td>0.1438 &mu;s</td><td>0.1274 &mu;s</td><td>9.560 &mu;s</td><td>-</td><td>-</td><td>-</td><td>40 B</td>
+</tr><tr><td>Parallel_ForEach</td><td>329.658 &mu;s</td><td>7.2418 &mu;s</td><td>21.3527 &mu;s</td><td>335.900 &mu;s</td><td>15.1367</td><td>3.4180</td><td>-</td><td>93834 B</td>
+</tr><tr><td>GarbageCollectorTest</td><td>13,628.627 &mu;s</td><td>266.6509 &mu;s</td><td>346.7215 &mu;s</td><td>13,589.010 &mu;s</td><td>1718.7500</td><td>1718.7500</td><td>1718.7500</td><td>1048617651 B</td>
 </tr></tbody></table>
 </body>
 </html>
